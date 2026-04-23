@@ -4,7 +4,6 @@ import { NowView } from './components/NowView'
 import { TimeSearchView } from './components/TimeSearchView'
 import { Icon } from './components/Icon'
 import { InstallButton } from './components/InstallButton'
-import { DonateCard } from './components/DonateCard'
 
 type Tab = 'now' | 'search'
 
@@ -30,7 +29,6 @@ export default function App() {
       </header>
 
       <main className="pt-header pb-10 px-5 mx-auto max-w-xl space-y-6 pb-safe">
-        <DonateCard />
         <nav className="bg-surface-container-low p-1.5 rounded-xl flex items-center shadow-inner">
           <TabButton active={tab === 'now'} onClick={() => setTab('now')}>
             지금
