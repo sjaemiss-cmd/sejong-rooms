@@ -5,6 +5,8 @@ import { rankRooms } from '../lib/ranking'
 import type { BuildingsMap, RoomsMeta } from '../lib/data'
 import { useGeolocation } from '../lib/useGeolocation'
 import { usePersistedState } from '../lib/usePersistedState'
+import { usePhotos } from '../lib/usePhotos'
+import { useReactions } from '../lib/useReactions'
 import { toMinutes } from '../lib/time'
 import { RoomCard } from './RoomCard'
 import { Icon } from './Icon'
@@ -29,6 +31,8 @@ export function TimeSearchView({ schedule, buildings, rooms }: Props) {
   const [manualBuilding, setManualBuilding] = usePersistedState<string>('pref:manualBuilding', '')
 
   const { state: geo, request: requestGeo } = useGeolocation()
+  const { byRoom: photosByRoom, upload: uploadPhoto } = usePhotos()
+  const { counts: reactionCounts, mine: myReactions, toggle: toggleReaction } = useReactions()
 
   const userPos =
     manualBuilding && buildings[manualBuilding]
@@ -193,7 +197,16 @@ export function TimeSearchView({ schedule, buildings, rooms }: Props) {
           )}
           <div className="space-y-3">
             {visible.map(r => (
-              <RoomCard key={r.room} room={r} referenceMin={toMinutes(end)} />
+              <RoomCard
+                key={r.room}
+                room={r}
+                referenceMin={toMinutes(end)}
+                photoUrl={photosByRoom[r.room]?.public_url}
+                reactionCounts={reactionCounts[r.room] ?? { good: 0, broken: 0 }}
+                myReaction={myReactions[r.room] ?? null}
+                onToggleReaction={toggleReaction}
+                onUploadPhoto={uploadPhoto}
+              />
             ))}
           </div>
         </section>

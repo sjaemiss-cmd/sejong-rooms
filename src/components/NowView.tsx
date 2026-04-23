@@ -5,6 +5,8 @@ import { rankRooms } from '../lib/ranking'
 import type { BuildingsMap, RoomsMeta } from '../lib/data'
 import { useGeolocation } from '../lib/useGeolocation'
 import { usePersistedState } from '../lib/usePersistedState'
+import { usePhotos } from '../lib/usePhotos'
+import { useReactions } from '../lib/useReactions'
 import { fromMinutes } from '../lib/time'
 import { RoomCard } from './RoomCard'
 import { Icon } from './Icon'
@@ -22,6 +24,8 @@ export function NowView({ schedule, buildings, rooms }: Props) {
   const [showLabs, setShowLabs] = usePersistedState<boolean>('pref:showLabs', false)
   const [manualBuilding, setManualBuilding] = usePersistedState<string>('pref:manualBuilding', '')
   const { state: geo, request: requestGeo } = useGeolocation()
+  const { byRoom: photosByRoom, upload: uploadPhoto } = usePhotos()
+  const { counts: reactionCounts, mine: myReactions, toggle: toggleReaction } = useReactions()
 
   useEffect(() => {
     const id = setInterval(() => setNow(new Date()), 30_000)
@@ -162,7 +166,16 @@ export function NowView({ schedule, buildings, rooms }: Props) {
 
       <div className="space-y-3">
         {visible.map(r => (
-          <RoomCard key={r.room} room={r} referenceMin={nowMin} />
+          <RoomCard
+            key={r.room}
+            room={r}
+            referenceMin={nowMin}
+            photoUrl={photosByRoom[r.room]?.public_url}
+            reactionCounts={reactionCounts[r.room] ?? { good: 0, broken: 0 }}
+            myReaction={myReactions[r.room] ?? null}
+            onToggleReaction={toggleReaction}
+            onUploadPhoto={uploadPhoto}
+          />
         ))}
       </div>
     </div>
