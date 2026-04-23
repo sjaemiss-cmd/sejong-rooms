@@ -79,4 +79,34 @@ bfe191a chore: add vite/client types + GitHub Pages base path
 000a93a feat: 세종대 빈 강의실 찾기 앱 초기 구현
 ```
 - 미커밋 변경: 없음 (clean)
+> 이 블록은 Stop hook이 자동 생성. `/done` 실행 시 정식 업데이트로 덮어쓰기 권장.## <!-- auto-snapshot --> 2026-04-23 14:50 — 세션 자동 스냅샷
+- 브랜치: `main`
+- 최근 커밋 5개:
+```
+d6ade07 feat: 후원 카드 (카카오페이 QR) — 거부감 최소화 UX
+409a237 fix: 업로드 유연성 + 모바일 standalone safe-area
+3451709 fix: 모바일에서 앱 설치 버튼 항상 노출 + 브라우저별 수동 안내 모달
+45f4b73 feat: 사용자 생성 콘텐츠 — 사진 업로드 / 리액션 / 제보
+bfe191a chore: add vite/client types + GitHub Pages base path
+```
+- 미커밋 변경: 없음 (clean)
+> 이 블록은 Stop hook이 자동 생성. `/done` 실행 시 정식 업데이트로 덮어쓰기 권장.## <!-- auto-snapshot --> 2026-04-23 14:51 — 세션 자동 스냅샷
+- 브랜치: `main`
+- 최근 커밋 5개:
+```
+d6ade07 feat: 후원 카드 (카카오페이 QR) — 거부감 최소화 UX
+409a237 fix: 업로드 유연성 + 모바일 standalone safe-area
+3451709 fix: 모바일에서 앱 설치 버튼 항상 노출 + 브라우저별 수동 안내 모달
+45f4b73 feat: 사용자 생성 콘텐츠 — 사진 업로드 / 리액션 / 제보
+bfe191a chore: add vite/client types + GitHub Pages base path
+```
+- 미커밋 변경:
+```
+M _docs/context-note.md
+```
+- diff stat:
+```
+_docs/context-note.md | 11 +++++++++++
+ 1 file changed, 11 insertions(+)
+```
 > 이 블록은 Stop hook이 자동 생성. `/done` 실행 시 정식 업데이트로 덮어쓰기 권장.

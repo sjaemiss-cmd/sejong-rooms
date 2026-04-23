@@ -30,6 +30,7 @@ export default function App() {
       </header>
 
       <main className="pt-header pb-10 px-5 mx-auto max-w-xl space-y-6 pb-safe">
+        <DonateCard />
         <nav className="bg-surface-container-low p-1.5 rounded-xl flex items-center shadow-inner">
           <TabButton active={tab === 'now'} onClick={() => setTab('now')}>
             지금
@@ -55,7 +56,6 @@ export default function App() {
             {tab === 'search' && (
               <TimeSearchView schedule={schedule} buildings={buildings} rooms={rooms} />
             )}
-            <DonateCard />
           </>
         )}
       </main>
