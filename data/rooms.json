@@ -1,0 +1,1235 @@
+{
+"학대공연장": {
+"building": "학대공연장",
+"type": "performance",
+"reason": "공연장/강당"
+},
+"집408": {
+"building": "집",
+"type": "classroom"
+},
+"집309": {
+"building": "집",
+"type": "classroom"
+},
+"집303": {
+"building": "집",
+"type": "classroom"
+},
+"집308": {
+"building": "집",
+"type": "classroom"
+},
+"센B107": {
+"building": "센B",
+"type": "classroom"
+},
+"광203": {
+"building": "광",
+"type": "classroom"
+},
+"광720": {
+"building": "광",
+"type": "classroom"
+},
+"이205": {
+"building": "이",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"충101": {
+"building": "충",
+"type": "classroom"
+},
+"영405": {
+"building": "영",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"영B03": {
+"building": "영",
+"type": "classroom"
+},
+"대양홀강당": {
+"building": "대양홀강당",
+"type": "performance",
+"reason": "공연장/강당"
+},
+"충905": {
+"building": "충",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"집302": {
+"building": "집",
+"type": "classroom"
+},
+"센B203": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B209": {
+"building": "센B",
+"type": "classroom"
+},
+"광1120B": {
+"building": "광",
+"type": "classroom"
+},
+"세109": {
+"building": "세",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"세204": {
+"building": "세",
+"type": "classroom"
+},
+"충1111": {
+"building": "충",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"광209": {
+"building": "광",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"충105A": {
+"building": "충",
+"type": "classroom"
+},
+"광110": {
+"building": "광",
+"type": "classroom"
+},
+"군107": {
+"building": "군",
+"type": "classroom"
+},
+"군504": {
+"building": "군",
+"type": "classroom"
+},
+"군505": {
+"building": "군",
+"type": "classroom"
+},
+"군506": {
+"building": "군",
+"type": "classroom"
+},
+"군514(Lab-B)": {
+"building": "군",
+"type": "classroom"
+},
+"군515(Lab-C)": {
+"building": "군",
+"type": "classroom"
+},
+"군516(Lab-D)": {
+"building": "군",
+"type": "classroom"
+},
+"군513(Lab-A)": {
+"building": "군",
+"type": "classroom"
+},
+"이102": {
+"building": "이",
+"type": "classroom"
+},
+"이103": {
+"building": "이",
+"type": "classroom"
+},
+"이202": {
+"building": "이",
+"type": "classroom"
+},
+"이203": {
+"building": "이",
+"type": "classroom"
+},
+"군502(Lab-F)": {
+"building": "군",
+"type": "classroom"
+},
+"세102": {
+"building": "세",
+"type": "classroom"
+},
+"세101": {
+"building": "세",
+"type": "classroom"
+},
+"세202": {
+"building": "세",
+"type": "classroom"
+},
+"군517(Lab-E)": {
+"building": "군",
+"type": "classroom"
+},
+"세103": {
+"building": "세",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"세201": {
+"building": "세",
+"type": "classroom"
+},
+"집401": {
+"building": "집",
+"type": "classroom"
+},
+"군109B": {
+"building": "군",
+"type": "classroom"
+},
+"광106": {
+"building": "광",
+"type": "classroom"
+},
+"광211": {
+"building": "광",
+"type": "classroom"
+},
+"호102": {
+"building": "호",
+"type": "classroom"
+},
+"센B103": {
+"building": "센B",
+"type": "classroom"
+},
+"센B114": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"충102": {
+"building": "충",
+"type": "classroom"
+},
+"호302": {
+"building": "호",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"영B01": {
+"building": "영",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"센B205": {
+"building": "센B",
+"type": "classroom"
+},
+"영201": {
+"building": "영",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"센B112": {
+"building": "센B",
+"type": "classroom"
+},
+"센B111": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B206": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"세206": {
+"building": "세",
+"type": "classroom"
+},
+"광202": {
+"building": "광",
+"type": "classroom"
+},
+"광206": {
+"building": "광",
+"type": "classroom"
+},
+"애101": {
+"building": "애",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군319": {
+"building": "군",
+"type": "classroom"
+},
+"집307": {
+"building": "집",
+"type": "classroom"
+},
+"영510": {
+"building": "영",
+"type": "classroom"
+},
+"영B02": {
+"building": "영",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"세108": {
+"building": "세",
+"type": "classroom"
+},
+"영601": {
+"building": "영",
+"type": "classroom"
+},
+"센B109": {
+"building": "센B",
+"type": "classroom"
+},
+"집502": {
+"building": "집",
+"type": "classroom"
+},
+"집404B": {
+"building": "집",
+"type": "classroom"
+},
+"광428": {
+"building": "광",
+"type": "classroom"
+},
+"광B07B": {
+"building": "광",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광B07C": {
+"building": "광",
+"type": "classroom"
+},
+"광B07D": {
+"building": "광",
+"type": "classroom"
+},
+"용103": {
+"building": "용",
+"type": "classroom"
+},
+"용101": {
+"building": "용",
+"type": "classroom"
+},
+"용102": {
+"building": "용",
+"type": "classroom"
+},
+"센B116": {
+"building": "센B",
+"type": "classroom"
+},
+"용B01": {
+"building": "용",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광713": {
+"building": "광",
+"type": "classroom"
+},
+"광207": {
+"building": "광",
+"type": "classroom"
+},
+"광208": {
+"building": "광",
+"type": "classroom"
+},
+"광108A": {
+"building": "광",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"이101": {
+"building": "이",
+"type": "classroom"
+},
+"광205": {
+"building": "광",
+"type": "classroom"
+},
+"집301": {
+"building": "집",
+"type": "classroom"
+},
+"집503": {
+"building": "집",
+"type": "classroom"
+},
+"집404A": {
+"building": "집",
+"type": "classroom"
+},
+"집403": {
+"building": "집",
+"type": "classroom"
+},
+"집702": {
+"building": "집",
+"type": "classroom"
+},
+"집407": {
+"building": "집",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"집402": {
+"building": "집",
+"type": "classroom"
+},
+"집705": {
+"building": "집",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"집311": {
+"building": "집",
+"type": "classroom"
+},
+"집504": {
+"building": "집",
+"type": "classroom"
+},
+"집501B": {
+"building": "집",
+"type": "classroom"
+},
+"광109": {
+"building": "광",
+"type": "classroom"
+},
+"광313": {
+"building": "광",
+"type": "classroom"
+},
+"광210": {
+"building": "광",
+"type": "classroom"
+},
+"광430": {
+"building": "광",
+"type": "classroom"
+},
+"광413": {
+"building": "광",
+"type": "classroom"
+},
+"광201": {
+"building": "광",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"광414": {
+"building": "광",
+"type": "classroom"
+},
+"광429": {
+"building": "광",
+"type": "classroom"
+},
+"광431": {
+"building": "광",
+"type": "classroom"
+},
+"광415": {
+"building": "광",
+"type": "classroom"
+},
+"광719": {
+"building": "광",
+"type": "classroom"
+},
+"광617": {
+"building": "광",
+"type": "classroom"
+},
+"광204": {
+"building": "광",
+"type": "classroom"
+},
+"광616": {
+"building": "광",
+"type": "classroom"
+},
+"광529": {
+"building": "광",
+"type": "classroom"
+},
+"광628": {
+"building": "광",
+"type": "classroom"
+},
+"광614": {
+"building": "광",
+"type": "classroom"
+},
+"광613": {
+"building": "광",
+"type": "classroom"
+},
+"센B125": {
+"building": "센B",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광629": {
+"building": "광",
+"type": "classroom"
+},
+"광513B": {
+"building": "광",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광712": {
+"building": "광",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B102": {
+"building": "센B",
+"type": "classroom"
+},
+"영401": {
+"building": "영",
+"type": "classroom"
+},
+"센B129": {
+"building": "센B",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광801": {
+"building": "광",
+"type": "classroom"
+},
+"영301": {
+"building": "영",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"다116": {
+"building": "다",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"호103": {
+"building": "호",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"영107": {
+"building": "영",
+"type": "classroom"
+},
+"영108": {
+"building": "영",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"영613": {
+"building": "영",
+"type": "lab",
+"reason": "수동: 실습실로 지정"
+},
+"충104B": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"영208": {
+"building": "영",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"율405": {
+"building": "율",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"김607": {
+"building": "김",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"광714": {
+"building": "광",
+"type": "classroom"
+},
+"충101A": {
+"building": "충",
+"type": "classroom"
+},
+"이204": {
+"building": "이",
+"type": "classroom"
+},
+"충604": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충507C": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"호101": {
+"building": "호",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"이104": {
+"building": "이",
+"type": "classroom"
+},
+"충906": {
+"building": "충",
+"type": "classroom"
+},
+"충904": {
+"building": "충",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"충908": {
+"building": "충",
+"type": "classroom"
+},
+"충917": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충928": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"호301": {
+"building": "호",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B104": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"율B104A": {
+"building": "율",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B202": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B201": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B207": {
+"building": "센B",
+"type": "classroom"
+},
+"센B105": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B208": {
+"building": "센B",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"센B110": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B122": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B106": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B204": {
+"building": "센B",
+"type": "classroom"
+},
+"센602": {
+"building": "센",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"센524": {
+"building": "센",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"센523": {
+"building": "센",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"센521": {
+"building": "센",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"센520": {
+"building": "센",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"센310B": {
+"building": "센",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"다212B": {
+"building": "다",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"다214A": {
+"building": "다",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"우214": {
+"building": "우",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"우215": {
+"building": "우",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광1004B": {
+"building": "광",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"우216": {
+"building": "우",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"진511": {
+"building": "진",
+"type": "classroom"
+},
+"진602": {
+"building": "진",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"진609": {
+"building": "진",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"진604": {
+"building": "진",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군418": {
+"building": "군",
+"type": "lab",
+"reason": "\"스튜디오\" 수업 편성됨"
+},
+"군306": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군414": {
+"building": "군",
+"type": "classroom"
+},
+"군412": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충804": {
+"building": "충",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"호201": {
+"building": "호",
+"type": "classroom"
+},
+"호202": {
+"building": "호",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"호203": {
+"building": "호",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"광1119B": {
+"building": "광",
+"type": "classroom"
+},
+"이201": {
+"building": "이",
+"type": "classroom"
+},
+"광910": {
+"building": "광",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"센B108": {
+"building": "센B",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"세205": {
+"building": "세",
+"type": "classroom"
+},
+"진603": {
+"building": "진",
+"type": "classroom"
+},
+"군421": {
+"building": "군",
+"type": "classroom"
+},
+"군416": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군419": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충218": {
+"building": "충",
+"type": "classroom"
+},
+"충516": {
+"building": "충",
+"type": "classroom"
+},
+"율201": {
+"building": "율",
+"type": "classroom"
+},
+"충206": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충207": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충208": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충209": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충210": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충223": {
+"building": "충",
+"type": "classroom"
+},
+"충227": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충220": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충221": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충222": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"율202": {
+"building": "율",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"율203": {
+"building": "율",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"율204": {
+"building": "율",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"율205": {
+"building": "율",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"율206": {
+"building": "율",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"율207": {
+"building": "율",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"율208": {
+"building": "율",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"율209": {
+"building": "율",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광102": {
+"building": "광",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"충1102B": {
+"building": "충",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"충410": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광828": {
+"building": "광",
+"type": "classroom"
+},
+"충106": {
+"building": "충",
+"type": "classroom"
+},
+"충1007": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"충1103": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광101": {
+"building": "광",
+"type": "classroom"
+},
+"군106": {
+"building": "군",
+"type": "classroom"
+},
+"충B107": {
+"building": "충",
+"type": "classroom"
+},
+"충1108": {
+"building": "충",
+"type": "classroom"
+},
+"광1020": {
+"building": "광",
+"type": "lab",
+"reason": "\"실험\" 수업 편성됨"
+},
+"광105": {
+"building": "광",
+"type": "classroom"
+},
+"광104": {
+"building": "광",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광103": {
+"building": "광",
+"type": "classroom"
+},
+"진301": {
+"building": "진",
+"type": "classroom"
+},
+"진402": {
+"building": "진",
+"type": "classroom"
+},
+"진204": {
+"building": "진",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"진102": {
+"building": "진",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"진305": {
+"building": "진",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"진403": {
+"building": "진",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"진101": {
+"building": "진",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"진202": {
+"building": "진",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"진201": {
+"building": "진",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군215": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군220": {
+"building": "군",
+"type": "classroom"
+},
+"군219": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군212": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군210": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군203": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군318": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군211": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군208": {
+"building": "군",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"대531": {
+"building": "대",
+"type": "classroom"
+},
+"진712": {
+"building": "진",
+"type": "classroom"
+},
+"새101C": {
+"building": "새",
+"type": "lab",
+"reason": "\"실습\" 수업 편성됨"
+},
+"대B04": {
+"building": "대",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"새B104": {
+"building": "새",
+"type": "classroom"
+},
+"대B02": {
+"building": "대",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"새B218": {
+"building": "새",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"새B205": {
+"building": "새",
+"type": "classroom"
+},
+"진711": {
+"building": "진",
+"type": "classroom"
+},
+"새B206": {
+"building": "새",
+"type": "classroom"
+},
+"새B221": {
+"building": "새",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"용401": {
+"building": "용",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"용109": {
+"building": "용",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"용202": {
+"building": "용",
+"type": "classroom"
+},
+"용302": {
+"building": "용",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"용301": {
+"building": "용",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"용201": {
+"building": "용",
+"type": "classroom"
+},
+"광807": {
+"building": "광",
+"type": "classroom"
+},
+"광1222": {
+"building": "광",
+"type": "classroom"
+},
+"광1212": {
+"building": "광",
+"type": "classroom"
+},
+"충B108": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광1213": {
+"building": "광",
+"type": "classroom"
+},
+"광1207": {
+"building": "광",
+"type": "classroom"
+},
+"충B101": {
+"building": "충",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"센B222": {
+"building": "센B",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광1223": {
+"building": "광",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"광1217": {
+"building": "광",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+},
+"군311": {
+"building": "군",
+"type": "lab",
+"reason": "\"스튜디오\" 수업 편성됨"
+},
+"군312": {
+"building": "군",
+"type": "classroom"
+},
+"세203": {
+"building": "세",
+"type": "classroom"
+},
+"새실기실": {
+"building": "새실기실",
+"type": "lab",
+"reason": "100% 실험/실습/실기 유형"
+}
+}
