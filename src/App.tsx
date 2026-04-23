@@ -4,6 +4,7 @@ import { NowView } from './components/NowView'
 import { TimeSearchView } from './components/TimeSearchView'
 import { Icon } from './components/Icon'
 import { InstallButton } from './components/InstallButton'
+import { DonateCard } from './components/DonateCard'
 
 type Tab = 'now' | 'search'
 
@@ -54,6 +55,7 @@ export default function App() {
             {tab === 'search' && (
               <TimeSearchView schedule={schedule} buildings={buildings} rooms={rooms} />
             )}
+            <DonateCard />
           </>
         )}
       </main>
