@@ -12,19 +12,23 @@ export default function App() {
   const { schedule, buildings, rooms, error } = useScheduleData()
 
   return (
-    <div className="min-h-screen bg-background text-on-background">
-      <header className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-5 h-16 bg-slate-950/80 backdrop-blur-xl border-b border-slate-800/50">
-        <div className="flex items-center gap-2">
-          <Icon name="school" className="text-primary-container" />
-          <div className="flex flex-col leading-tight">
-            <span className="text-lg font-bold tracking-tight text-on-surface">세종대 빈 강의실</span>
-            <span className="text-[10px] text-on-surface-variant">2026-1학기 기준</span>
+    <div className="min-h-dvh bg-background text-on-background">
+      <header className="fixed top-0 left-0 w-full z-50 bg-slate-950/80 backdrop-blur-xl border-b border-slate-800/50 pt-safe">
+        <div className="flex justify-between items-center px-5 h-16">
+          <div className="flex items-center gap-2">
+            <Icon name="school" className="text-primary-container" />
+            <div className="flex flex-col leading-tight">
+              <span className="text-lg font-bold tracking-tight text-on-surface">
+                세종대 빈 강의실
+              </span>
+              <span className="text-[10px] text-on-surface-variant">2026-1학기 기준</span>
+            </div>
           </div>
+          <InstallButton />
         </div>
-        <InstallButton />
       </header>
 
-      <main className="pt-20 pb-10 px-5 mx-auto max-w-2xl space-y-6">
+      <main className="pt-header pb-10 px-5 mx-auto max-w-xl space-y-6 pb-safe">
         <nav className="bg-surface-container-low p-1.5 rounded-xl flex items-center shadow-inner">
           <TabButton active={tab === 'now'} onClick={() => setTab('now')}>
             지금

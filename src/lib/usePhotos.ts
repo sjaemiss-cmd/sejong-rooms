@@ -82,13 +82,12 @@ export function usePhotos() {
       try {
         blob = await compressToWebp(file)
       } catch (e) {
-        return { ok: false, error: `이미지 처리 실패: ${String(e)}` }
-      }
-      if (blob.size > 1_000_000) {
-        return { ok: false, error: '압축 후에도 1MB를 넘습니다' }
+        const msg = e instanceof Error ? e.message : String(e)
+        return { ok: false, error: msg }
       }
       const anonId = getAnonId()
-      const path = `${room}/${crypto.randomUUID()}.webp`
+      // Supabase Storage key는 괄호·공백 등 특수문자를 거부 → UUID만 사용
+      const path = `${crypto.randomUUID()}.webp`
       const uploadRes = await supabase.storage.from(BUCKET).upload(path, blob, {
         contentType: 'image/webp',
         cacheControl: '3600',

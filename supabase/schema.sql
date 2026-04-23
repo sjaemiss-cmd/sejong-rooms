@@ -118,7 +118,7 @@ create trigger after_report_insert
 -- 6. Storage bucket — room-photos (공개 read)
 -- ============================================================
 insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
-values ('room-photos', 'room-photos', true, 1048576, array['image/webp','image/jpeg','image/png'])
+values ('room-photos', 'room-photos', true, 2097152, array['image/webp'])
 on conflict (id) do update
   set public = excluded.public,
       file_size_limit = excluded.file_size_limit,
