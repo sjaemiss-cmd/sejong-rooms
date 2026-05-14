@@ -3,8 +3,8 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  // 커스텀 도메인(teamply.kr)으로 서빙되므로 base는 루트
-  base: '/',
+  // GitHub Pages project site: https://sjaemiss-cmd.github.io/sejong-rooms/
+  base: '/sejong-rooms/',
   plugins: [react(), tailwindcss()],
   test: {
     environment: 'jsdom',
