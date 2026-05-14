@@ -14,7 +14,7 @@ export default function App() {
   return (
     <div className="min-h-dvh bg-background text-on-background">
       <header className="fixed top-0 left-0 w-full z-50 bg-slate-950/80 backdrop-blur-xl border-b border-slate-800/50 pt-safe">
-        <div className="flex justify-between items-center px-5 h-16">
+        <div className="flex justify-between items-center px-3 sm:px-5 h-16">
           <div className="flex items-center gap-2">
             <Icon name="school" className="text-primary-container" />
             <div className="flex flex-col leading-tight">
@@ -28,8 +28,8 @@ export default function App() {
         </div>
       </header>
 
-      <main className="pt-header pb-10 px-5 mx-auto max-w-xl space-y-6 pb-safe">
-        <nav className="bg-surface-container-low p-1.5 rounded-xl flex items-center shadow-inner">
+      <main className="pt-header pb-10 px-0 sm:px-5 mx-auto max-w-xl space-y-4 sm:space-y-6 pb-safe">
+        <nav className="bg-surface-container-low p-1.5 rounded-none sm:rounded-xl flex items-center shadow-inner border-y border-outline-variant/20 sm:border-y-0">
           <TabButton active={tab === 'now'} onClick={() => setTab('now')}>
             지금
           </TabButton>

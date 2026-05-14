@@ -50,18 +50,18 @@ export function RoomCard({
         : 'meeting_room'
 
   return (
-    <article className="bg-surface-container p-4 rounded-2xl border border-outline-variant/20 space-y-3">
+    <article className="bg-surface-container p-3 sm:p-4 rounded-none sm:rounded-2xl border-y sm:border border-outline-variant/20 space-y-3">
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4 min-w-0">
+        <div className="flex items-center gap-3 sm:gap-4 min-w-0">
           {photoUrl ? (
             <img
               src={photoUrl}
               alt={`${room.room} 사진`}
               loading="lazy"
-              className="w-14 h-14 rounded-xl object-cover shrink-0"
+              className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl object-cover shrink-0"
             />
           ) : (
-            <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
+            <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-primary/10 flex items-center justify-center shrink-0">
               <Icon name={bubbleIcon} className="text-primary" />
             </div>
           )}
@@ -95,7 +95,7 @@ export function RoomCard({
           </div>
         </div>
         {room.distanceM !== null && (
-          <div className="bg-secondary-container/20 px-3 py-1.5 rounded-full border border-secondary/30 shrink-0">
+          <div className="bg-secondary-container/20 px-2.5 sm:px-3 py-1.5 rounded-full border border-secondary/30 shrink-0">
             <span className="text-numeric text-secondary text-[13px]">
               {formatDistance(room.distanceM)}
             </span>

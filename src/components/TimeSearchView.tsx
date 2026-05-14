@@ -59,23 +59,23 @@ export function TimeSearchView({ schedule, buildings, rooms }: Props) {
   )
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-4 sm:space-y-6">
       <form
         onSubmit={e => {
           e.preventDefault()
           if (!invalid) setSubmitted(true)
         }}
-        className="bg-surface-container-low border border-outline-variant/30 rounded-[32px] p-6 space-y-6 shadow-xl"
+        className="bg-surface-container-low border-y sm:border border-outline-variant/30 rounded-none sm:rounded-[32px] p-4 sm:p-6 space-y-5 sm:space-y-6 shadow-xl"
       >
         <div className="space-y-3">
           <p className="text-label-caps text-on-surface-variant opacity-70">요일 선택</p>
-          <div className="flex justify-between items-center">
+          <div className="grid grid-cols-5 gap-2">
             {WEEKDAYS.map(d => (
               <button
                 key={d}
                 type="button"
                 onClick={() => setDay(d)}
-                className={`w-12 h-12 flex items-center justify-center rounded-full font-bold transition-all ${
+                className={`w-full h-11 sm:h-12 flex items-center justify-center rounded-full font-bold transition-all ${
                   day === d
                     ? 'bg-primary-container text-on-primary-container'
                     : 'bg-surface-container-high text-on-surface-variant active:scale-95'
@@ -87,10 +87,10 @@ export function TimeSearchView({ schedule, buildings, rooms }: Props) {
           </div>
         </div>
 
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-2 gap-2 sm:gap-4">
           <label className="space-y-3 block">
             <span className="text-label-caps text-on-surface-variant opacity-70">시작 시간</span>
-            <div className="bg-surface-container-highest rounded-2xl h-14 flex items-center px-4 justify-between">
+            <div className="bg-surface-container-highest rounded-2xl h-14 flex items-center px-3 sm:px-4 justify-between">
               <input
                 type="time"
                 value={start}
@@ -102,7 +102,7 @@ export function TimeSearchView({ schedule, buildings, rooms }: Props) {
           </label>
           <label className="space-y-3 block">
             <span className="text-label-caps text-on-surface-variant opacity-70">종료 시간</span>
-            <div className="bg-surface-container-highest rounded-2xl h-14 flex items-center px-4 justify-between">
+            <div className="bg-surface-container-highest rounded-2xl h-14 flex items-center px-3 sm:px-4 justify-between">
               <input
                 type="time"
                 value={end}
@@ -158,7 +158,7 @@ export function TimeSearchView({ schedule, buildings, rooms }: Props) {
           )}
         </div>
 
-        <div className="flex items-center gap-4 pt-2">
+        <div className="flex items-center gap-2 sm:gap-4 pt-2">
           <label className="flex-1 flex items-center justify-between bg-surface-container-highest rounded-2xl h-14 px-4 cursor-pointer">
             <span className="text-body-md text-on-surface-variant">실습실 포함</span>
             <input
@@ -171,7 +171,7 @@ export function TimeSearchView({ schedule, buildings, rooms }: Props) {
           <button
             type="submit"
             disabled={invalid}
-            className="bg-primary-container text-on-primary-container font-bold h-14 px-8 rounded-2xl shadow-lg shadow-primary-container/20 active:scale-95 transition-all disabled:opacity-50"
+            className="bg-primary-container text-on-primary-container font-bold h-14 px-6 sm:px-8 rounded-2xl shadow-lg shadow-primary-container/20 active:scale-95 transition-all disabled:opacity-50"
           >
             검색
           </button>
@@ -180,7 +180,7 @@ export function TimeSearchView({ schedule, buildings, rooms }: Props) {
 
       {submitted && (
         <section className="space-y-4">
-          <div className="flex flex-col gap-1">
+          <div className="flex flex-col gap-1 px-3 sm:px-0">
             <h2 className="text-h2 text-on-surface">검색 결과</h2>
             <p className="text-body-md text-on-surface-variant">
               {day}요일 {start}~{end} · {visible.length}개 방
@@ -188,14 +188,14 @@ export function TimeSearchView({ schedule, buildings, rooms }: Props) {
             </p>
           </div>
           {visible.length === 0 && (
-            <div className="rounded-2xl bg-surface-container-low border border-outline-variant/20 p-8 text-center">
+            <div className="rounded-none sm:rounded-2xl bg-surface-container-low border-y sm:border border-outline-variant/20 p-6 sm:p-8 text-center">
               <Icon name="search_off" className="text-4xl text-on-surface-variant" />
               <p className="mt-2 text-body-md text-on-surface-variant">
                 이 시간대에 비어있는 강의실이 없어요.
               </p>
             </div>
           )}
-          <div className="space-y-3">
+          <div className="space-y-2 sm:space-y-3">
             {visible.map(r => (
               <RoomCard
                 key={r.room}

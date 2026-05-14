@@ -57,9 +57,8 @@ export function NowView({ schedule, buildings, rooms }: Props) {
   )
 
   return (
-    <div className="space-y-6">
-      <section className="relative overflow-hidden rounded-3xl bg-surface-container border border-outline-variant/30 p-6 glass">
-        <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary/10 blur-[60px] rounded-full"></div>
+    <div className="space-y-4 sm:space-y-6">
+      <section className="relative overflow-hidden rounded-none sm:rounded-3xl bg-surface-container border-y sm:border border-outline-variant/30 p-4 sm:p-6 glass">
         <div className="relative z-10 space-y-4">
           <div className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span>
@@ -135,7 +134,7 @@ export function NowView({ schedule, buildings, rooms }: Props) {
         </div>
       </section>
 
-      <section className="flex items-center justify-between">
+      <section className="flex items-center justify-between px-3 sm:px-0">
         <div className="flex flex-col">
           <span className="text-body-lg font-bold text-on-surface">{visible.length}개 방</span>
           {excluded > 0 && (
@@ -156,7 +155,7 @@ export function NowView({ schedule, buildings, rooms }: Props) {
       </section>
 
       {visible.length === 0 && (
-        <div className="rounded-2xl bg-surface-container-low border border-outline-variant/20 p-8 text-center">
+        <div className="rounded-none sm:rounded-2xl bg-surface-container-low border-y sm:border border-outline-variant/20 p-6 sm:p-8 text-center">
           <Icon name="search_off" className="text-4xl text-on-surface-variant" />
           <p className="mt-2 text-body-md text-on-surface-variant">
             지금 비어있는 강의실이 없어요.
@@ -164,7 +163,7 @@ export function NowView({ schedule, buildings, rooms }: Props) {
         </div>
       )}
 
-      <div className="space-y-3">
+      <div className="space-y-2 sm:space-y-3">
         {visible.map(r => (
           <RoomCard
             key={r.room}
